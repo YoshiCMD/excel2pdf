@@ -1,4 +1,4 @@
-package com.github.fengxxc.util;
+package com.codexd.util;
 
 import com.itextpdf.io.font.PdfEncodings;
 import com.itextpdf.kernel.font.PdfFont;
@@ -19,19 +19,19 @@ import java.util.Map;
  */
 public class ITextUtil {
     // 宋体。",数字",数字表示字体索引
-    public static final String FONT_SIMSUN = "C:/Windows/Fonts/simsun.ttc,0";
+    public static final String FONT_SIMSUN = "/fonts/arial.ttf";
     // 黑体
-    public static final String FONT_SIMHEI = "C:/Windows/Fonts/simhei.ttf";
+    public static final String FONT_SIMHEI = "/fonts/arial.ttf";
     // 微软雅黑
-    public static final String FONT_MICROSOFT_YAHEI = "C:/Windows/Fonts/msyh.ttc,0";
+    public static final String FONT_MICROSOFT_YAHEI = "fonts/arial.ttf";
     // 等线
-    public static final String FONT_DENGXIAN = "C:/Windows/Fonts/Deng.ttf";
+    public static final String FONT_DENGXIAN = "/fonts/arial.ttf";
     // Times New Roman
     // public static final String FONT_TIMES = "C:/Windows/Fonts/times.ttf";
     // Arial
     // public static final String FONT_ARIAL = "C:/Windows/Fonts/arial.ttf";
     // 仿宋GB2312
-    public static final String FONT_FANGSONG_GB2312 = "C:/Windows/Fonts/仿宋GB2312.ttf";
+    public static final String FONT_FANGSONG_GB2312 = "/fonts/arial.ttf";
 
     public static final Map<Short, Border> POI_TO_ITEXT_BORDER = new HashMap<>();
     public static final Map<String, String> POI_TO_ITEXT_FONT_NAME = new HashMap<>();

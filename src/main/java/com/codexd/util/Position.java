@@ -1,4 +1,4 @@
-package com.github.fengxxc.util;
+package com.codexd.util;
 
 /**
  * @author fengxxc
